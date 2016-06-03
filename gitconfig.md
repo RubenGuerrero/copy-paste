@@ -1,3 +1,4 @@
+```
 [user]
 	name = RubenGuerrero
 	email = yo@rubenguerrero.com
@@ -9,7 +10,7 @@
 
 [credential "https://github.com"]
 	username = RubenGuerrero
-	
+
 
 [alias]
 	newb = !git checkout -b $1
@@ -43,15 +44,15 @@
 	cl = clone
 	ci = commit
 	co = checkout
-	br = branch 
+	br = branch
 	diff = diff --word-diff
 	dc = diff --cached
 
 	graph = log --graph -10 --branches --remotes --tags  --format=format:'%Cgreen%h %Creset• %<(75,trunc)%s (%cN, %cr) %Cred%d' --date-order
 	precommit = diff --cached --diff-algorithm=minimal -w
-	
+
 [gui]
 	encoding = utf-8
 [push]
 	default = simple
-
+```
